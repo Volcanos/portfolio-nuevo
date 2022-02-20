@@ -3,7 +3,7 @@ import styles from './Footer.module.scss';
 const Footer = () => {
     return (
         <div className={styles.footerWrapper}>
-            Diseñado y maquetado por Borja Gracia Martín
+            Diseño y programación por Borja Gracia
             { <a href="https://github.com/Volcanos/portfolio-nuevo" target="_blank" rel="noreferrer">GitHub</a> }
         </div>
     )

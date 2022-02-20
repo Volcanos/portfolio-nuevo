@@ -14,7 +14,7 @@ export default function Home() {
           Desarrollador web desde hace más de 15 años. Especializado en
           tecnologías frontend como ReactJS, React Native o Javascript puro,
           también tengo un amplio conocimiento del desarrollo backend siendo
-          Javascript y PHP los lenguajes que más domino.
+          Javascript, PHP y SQL los lenguajes que más domino.
         </div>
         <div className={styles.paragraphWrapper}>
           Haber trabajado como freelance me ha permitido tener una visión global
