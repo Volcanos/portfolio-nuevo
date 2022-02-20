@@ -11,7 +11,7 @@ export default function Home() {
           <Image src={profilePic} alt="Borja, programador web"/>
         </div>
         <div className={styles.paragraphWrapper}>
-          Desarrollador web desde hace más de 10 años. Especializado en
+          Desarrollador web desde hace más de 15 años. Especializado en
           tecnologías frontend como ReactJS, React Native o Javascript puro,
           también tengo un amplio conocimiento del desarrollo backend siendo
           Javascript y PHP los lenguajes que más domino.

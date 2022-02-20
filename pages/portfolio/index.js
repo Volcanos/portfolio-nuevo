@@ -33,9 +33,9 @@ export const content = [
       "Android",
       "iOS",
     ],
-    web: { url: "https://pushyourkpis.com", label: "pushyourkpis.com" },
+    /*web: { url: "https://pushyourkpis.com", label: "pushyourkpis.com" },*/
     description:
-      "El proyecto de Push Your KPIs consiste, en un administrador simple en que el usuario puede gestionar sus indicadores, y en una app para que los empleados puedan hacer seguimiento de esos mismos indicadores. Además el gestor tiene la capacidad de enviar mensajes push filtrados para poder incentivar o informar a los empleados. Este proyecto se realizó con el CMS Statamic que trabaja sobre Laravel. Para la aplicación se utilizó React Native para el desarrollo completo de las aplicaciones para dispositivos Android e iOS.",
+      "El proyecto de Push Your KPIs consiste en un administrador simple en que el usuario puede gestionar sus indicadores, y en una app para que los empleados puedan hacer seguimiento de esos mismos indicadores. Además el gestor tiene la capacidad de enviar notificaciones push filtradas para poder incentivar o informar a los empleados. Este proyecto se realizó con el CMS Statamic que trabaja sobre Laravel. Para la aplicación se utilizó React Native para el desarrollo completo de las aplicaciones para dispositivos Android e iOS.",
     listImages: ["/images/push2.png", "/images/push3.png"],
   },
   {
@@ -63,7 +63,7 @@ export const content = [
     subtitle: "Web",
     tags: ["Wordpress", "Javascript", "ES6"],
     description:
-      "Para la página web de la agencia de publicidad Inoff Comunicación se desarrolló un theme de Wordpress totalmente personalizado. Se modificó el administrador de Wordpress para que todo el contenido fuera editable.",
+      "Para la página web de la agencia de publicidad Inoff Comunicación se desarrolló un theme de Wordpress totalmente personalizado. También se modificó el administrador de Wordpress para que todo el contenido fuera editable.",
     listImages: ["/images/inoff2.png", "/images/inoff3.png"],
   },
   {

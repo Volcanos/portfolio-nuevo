@@ -45,8 +45,8 @@ export const content = [
         company: 'Blink Learning',
         dateInit: '2018',
         dateEnd: 'actualidad',
-        duration: '2 años',
-        description: 'Responsable del equipo de desarrollo front-end con cinco personas a mi cargo. Desarrollo del proyecto de renovación de la interface de la plataforma con la tecnología React Native.',
+        duration: '4 años',
+        description: 'Responsable del equipo de desarrollo front-end con siete personas a mi cargo. Desarrollo del proyecto de renovación de la interface de la plataforma con la tecnología React Native.',
         tags: ['React Native', 'ES6', 'Functional programming', 'Redux', 'Webpack', 'Jest', 'Styled components']
     },
     {
