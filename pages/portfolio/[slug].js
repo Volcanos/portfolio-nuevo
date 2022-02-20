@@ -11,7 +11,7 @@ const Project = () => {
     return (
         <PageLayout>
             <div className={styles.contentInnerWrapper}>
-                <Image src={mainImage} alt={title} />
+                { mainImage && <Image src={mainImage} alt={title} width="960" height="430"/> }
                 <div className={styles.columnsWrapper}>
                     <div className={styles.columnData}>
                         <h4 className={styles.titleProject}>{title}</h4>
@@ -24,7 +24,7 @@ const Project = () => {
                     </div>
                     <div className={styles.columnImages}>
                         {description}
-                        {listImages && listImages.map((element, i) => <Image className={styles.imageList} key={i} src={element} alt={`${title} ${i}`} />)}
+                        {listImages && listImages.map((element, i) => <div key={i} className={styles.imageList}><Image src={element} alt={`${title} ${i}`}width="635" height="380"/></div>)}
                     </div>
                 </div>
             </div>

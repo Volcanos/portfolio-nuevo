@@ -112,5 +112,8 @@
     }
 }
 .imageList {
+    display: block;
     margin-top: 2rem;
+    max-width: 635px; 
+    max-height: 380px;
 }
