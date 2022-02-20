@@ -1,0 +1,46 @@
+.menulist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.menuelem {
+  margin-left: 1em;
+}
+.menuAnchor {
+  display: inline-block;
+  position: relative;
+  &:hover {
+    color: #e8e8e8;
+    cursor: pointer;
+
+    &:before,
+    &:after {
+      width: 50%;
+      opacity: 1;
+    }
+  }
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 0px;
+    height: 1px;
+    margin: 2px 0 0;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.65s;
+    opacity: 0;
+    background-color: #e8e8e8;
+  }
+  &:before {
+    left: 50%;
+  }
+  &:after {
+    right: 50%;
+  }
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 16px;
+}
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#__next {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+div,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #252525;
+}
+h1,
+h2,
+h3 {
+  font-family: "Advent Pro", sans-serif;
+  font-weight: 500;
+}
+h3,
+h4 {
+  font-weight: 300;
+}
+img {
+  max-width: 100%;
+  width: 100%;
+}

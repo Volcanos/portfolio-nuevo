@@ -1,0 +1,116 @@
+.contentWrapper {
+  margin-top: 4rem;
+  text-align: center;
+}
+.titleSection {
+  margin-bottom: 2rem;
+}
+.contentInnerWrapper {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.columnsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 2rem;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+.columnData {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+
+    @media (min-width: 768px) {
+        width: 34%;
+        text-align: left;
+        align-items: flex-start;
+    }
+}
+.columnImages {
+    display: flex;
+    color: #6f6f6f;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    width: 100%;
+
+    @media (min-width: 768px) {
+        width: 67%;
+        max-width: 635px;
+    }
+}
+.titleProject {
+    color: #6f6f6f;
+    font-weight: 800;
+    margin-bottom: 0rem;
+}
+.subtitleProject {
+    color: #6f6f6f;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+.listTags {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
+.tag {
+    font-size: .8rem;
+    margin-bottom: 2px;
+    color: #6f6f6f;
+}
+.gitAnchor {
+    width: min-content;
+    margin-bottom: .2rem;
+    display: inline-block;
+    font-size: .8rem;
+    color: #6f6f6f;
+    text-decoration: none;
+    position: relative;
+    &:hover {
+        color: #6f6f6f;
+        cursor: pointer;
+
+        &:before,
+        &:after {
+            width: 50%;
+            opacity: 1;
+        }
+    }
+
+    &:before,
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        width: 0px;
+        height: 1px;
+        margin: 2px 0 0;
+        transition: all 0.2s ease-in-out;;
+        transition-duration: 0.65s;
+        opacity: 0;
+        background-color: #6f6f6f;
+    }
+    &:before {
+        left: 50%;
+    }
+    &:after {
+        right: 50%;
+    }
+}
+.imageList {
+    margin-top: 2rem;
+}

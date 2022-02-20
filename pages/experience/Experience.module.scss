@@ -1,0 +1,59 @@
+.contentWrapper {
+    margin-top: 4rem;
+}
+.titleSection {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.columnWrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.jobSeparator {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 2rem 0;
+    width: 100%;
+}
+.titleJob {
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+.rowData {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    width: 100%;
+    max-width: 500px;
+    @media (min-width: 768px) {
+        flex-direction: row;
+        margin-bottom: .3rem;
+        max-width: none;
+    }
+}
+.labelCell {
+    color: #6f6f6f;
+    font-family: 'Advent Pro',sans-serif;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    margin-right: 1rem;
+    text-align: left;
+    width: 100%;
+    @media (min-width: 768px) {
+        text-align: right;
+        width: 150px;
+    }
+}
+.dataCell{
+    color: #6f6f6f;
+    font-size: .9rem;
+    line-height: 1rem;
+    padding-top: 2px;
+    width: 100%;
+    @media (min-width: 768px) {
+        width: 450px;
+    }
+}
