@@ -1,12 +1,13 @@
 import styles from "../styles/Home.module.scss";
 import HomeLayout from "../layouts/HomeLayout";
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <HomeLayout>
       <div className={styles.contentWrapper}>
         <div className={styles.paragraphWrapper}>
-          <img src="/images/borja.jpg" title="Borja, programador web" />
+          <Image src="/images/borja.jpg" alt="Borja, programador web" />
         </div>
         <div className={styles.paragraphWrapper}>
           Desarrollador web desde hace más de 10 años. Especializado en
