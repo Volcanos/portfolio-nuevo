@@ -4,7 +4,7 @@ const { default: next } = require("next");
 const isDev = process.env.NODE_ENV !== "production";
 
 const server = next({
-  dev: isDev,
+  dev: false,
   //location of .next generated after running -> yarn build
   conf: { distDir: ".next" },
 });
